@@ -1,0 +1,24 @@
+{
+	"name": "ORS",
+	"version": "1.0.0",
+	"script": {
+		"client": "cd client && yarn start",
+        "server": "node server.js",
+        "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+	},
+	"author":"YSL",
+	"license":"YDD",
+	"dependencies": {
+		"express":"",
+		"multer": "",
+        "compression":"",		
+        "mysql": "",
+        "oracledb":"",
+        "yarn": "",
+        "nodemon": ""
+	},
+    "devDependencies": {
+    "concurrently": ""
+	}
+
+}

@@ -1,20 +1,18 @@
-
-import {React, useState,useEffect} from 'react'
+import { React, useState, useEffect } from 'react';
+import Header from './components/Header';
+import Nav from './components/Nav';
+import Main from './components/Main';
 
 function App() {
-  function onIncrease(){
-    console.log('+1')
-  }
-
-  const OnDecrease = () =>{
-    console.log('-1')
-  }
-
   return (
     <div className="App">
-      <h1>0</h1>
-      <button onClick={onIncrease}>+1</button>
-      <button onClick={OnDecrease}>-1</button>
+      <Header></Header>
+      <div className="container">
+        <div className="row">
+          <Nav></Nav>
+          <Main></Main>
+        </div>
+      </div>
     </div>
   );
 }

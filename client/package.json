@@ -10,10 +10,14 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4",
-    "react-router-dom":"",
-    "react-icons":"",
-    "axios":"",
-    "yarn":""
+    "react-router-dom": "",
+    "react-icons": "",
+    "axios": "",
+    "yarn": "",
+    "chart.js": "",
+    "react-chartjs-2": "",
+    "bootstrap": "",
+    "lodash":""
   },
   "scripts": {
     "start": "react-scripts start",

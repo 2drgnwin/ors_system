@@ -1,24 +1,25 @@
 {
-	"name": "ORS",
-	"version": "1.0.0",
-	"script": {
-		"client": "cd client && yarn start",
-        "server": "node server.js",
-        "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
-	},
-	"author":"YSL",
-	"license":"YDD",
-	"dependencies": {
-		"express":"",
-		"multer": "",
-        "compression":"",		
-        "mysql": "",
-        "oracledb":"",
-        "yarn": "",
-        "nodemon": ""
-	},
-    "devDependencies": {
+  "name": "ORS",
+  "version": "1.0.0",
+  "scripts": {
+    "client": "cd client && yarn start",
+    "server": "node server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+  },
+  "author": "YSL",
+  "license": "YDD",
+  "dependencies": {
+    "compression": "",
+    "csvtojson": "^2.0.10",
+    "express": "",
+    "lodash": "^4.17.21",
+    "multer": "",
+    "mysql": "",
+    "nodemon": "",
+    "oracledb": "",
+    "yarn": ""
+  },
+  "devDependencies": {
     "concurrently": ""
-	}
-
+  }
 }

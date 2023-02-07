@@ -17,7 +17,10 @@
     "chart.js": "",
     "react-chartjs-2": "",
     "bootstrap": "",
-    "lodash":""
+    "react-bootstrap": "",
+    "lodash":"",
+    "react-tabulator": "",
+    "tabulator-tables":""
   },
   "scripts": {
     "start": "react-scripts start",
